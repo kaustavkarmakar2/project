@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password":"root",
+    "database": "user",
+    "host": "127.0.0.1",
+    "dialect": "postgresql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "postgres",
+    "password":"root",
+    "database": "passport",
+    "host": "127.0.0.1",
+    "dialect": "postgresql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "postgres",
+    "password":"root",
+    "database": "passport",
+    "host": "127.0.0.1",
+    "dialect": "postgresql",
+    "operatorsAliases": false
+  }
+}
