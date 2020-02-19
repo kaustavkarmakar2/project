@@ -1,21 +1,13 @@
 const Users = require('../../models').users;
-const Roles = require('../../models').Posts;
-
-
-
 const jwt = require("jsonwebtoken");
-
-
-
-
-
 const bcrypt = require('bcrypt');
 process.env.SECRET_KEY = 'secret';
 
 module.exports={
+
+    //signup module
+    
     signup(req,res){
-        
-        // console.log(userData.email_id,"bbbbbb");
         
         return Users.findOne({ 
   
@@ -24,8 +16,6 @@ module.exports={
             }       
               
         })      
-        
-       
         .then(users => {
           if(!users){
             const hash = bcrypt.hashSync(req.body.password,10);
