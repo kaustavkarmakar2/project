@@ -38,6 +38,11 @@ Creates some dummy values in Roles table after database creation
 INSERT INTO public.roles(
 	id, title, details)
 	VALUES (1, 'SoftwareDeveloper','to build software');
+
+##Api
+To check in postman
+`http://localhost:3002/api/signup`
+
 ##json value passed to body 
 {   "user_id":1,
 	 "full_name": "Kaustav",
