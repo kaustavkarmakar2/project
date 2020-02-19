@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS public.Userst;
+DROP TABLE IF EXISTS public.Roles;
