@@ -51,4 +51,4 @@ after that user_id will be auto-incremented
 
 `npm install`
 run:`node app`
-`the developement server is running at 3002`
+message:`the developement server is running at 3002`
