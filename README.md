@@ -49,6 +49,6 @@ INSERT INTO public.roles(
 after that user_id will be auto-incremented 
 ## Project Start 
 
-npm install 
-node app
+`npm install`
+run:`node app`
 `the developement server is running at 3002`
